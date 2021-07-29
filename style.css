@@ -855,7 +855,7 @@ img {
 
 /* Media Queries for mobile */
 
-@media (min-width:481px){
+@media (max-width:481px){
     
     #pet-activities .small-text {
         text-align: center;
