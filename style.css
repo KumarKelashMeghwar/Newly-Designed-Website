@@ -872,9 +872,6 @@ img {
 
 /* Media Queries for mobile */
 @media (max-width:381px){
-    #steps .col-5{
-        margin-left: -50px;
-    }
     #hero-section .hero-btns{
         margin-left: 5px;
     }
@@ -1203,7 +1200,7 @@ img {
 
     #contact .main{
         padding: 30px;
-        border-radius: 50px;
+        border-radius: 20px;
         width: 300px;
     }
 
@@ -1216,16 +1213,15 @@ img {
     }
 
     #contact .image img{
-        width: 334px;
-        height: 100%;
-        margin-left: 0px;
+        width: calc(100% + 35px);
+        height: 84%;
         margin-top: 30px;
+        margin-left: 0;
     }
 
     /* Footer  */
 
     #footer .row{
-        /*background-color: green;*/
         width: 350px;
         display: flex;
         flex-direction: column;
@@ -1257,13 +1253,18 @@ img {
         padding-left: 0px;
     }
 
+    #footer .links a{
+        display: block;
+        text-align: center;
+    }
+
+    #footer .heading{
+        font-size: 30px;
+        font-weight: bold;
+    }
+
     #main-footer .col-12{
         font-weight: bold;
         padding: 0 30px;
     }
-
-
 }    
-
-
-
