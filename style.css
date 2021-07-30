@@ -857,7 +857,16 @@ img {
 
 @media (max-width:500px){
 
-    img{ display: none; }
+    #hero-section .hero-btns .button {
+        font-size: 18px;
+        margin-left: 10px;
+        padding: 13px 18px;
+    }
+
+    #hero-section .hero-btns .first-btn {
+        background-color: #ed6436;
+        color: #fff;
+    }
     
     #pet-activities .small-text {
         text-align: center;
@@ -927,7 +936,7 @@ img {
     #columns .box {
         margin-top: 25px;
         height: 320px;
-        width: 420px;
+        width: 380px;
         justify-content: space-between;
         align-items: center;
     }
