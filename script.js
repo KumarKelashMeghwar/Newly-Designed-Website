@@ -61,14 +61,10 @@ document.addEventListener('scroll', () => {
         header.style.zIndex = '100';
         header.style.backgroundColor = '#fff';
     }
-  
+  	else{
+  		header.style.boxShadow = 'none';
+  		header.style.position = 'relative';
+        header.style.zIndex = '1';
+        header.style.backgroundColor = 'transparent';
+  	}
 });
-
-
-
-
-
-
-
-
-
